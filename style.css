@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --bg-color-blue:blue;
+    --font-color-yellow:yellow;
+}
+body{
+    background-color: var(--bg-color-blue);
+    font-size: 2rem;
+    font-family: sans-serif;
+    display: grid;
+    place-items:center;
+    height: 100vh;
+
+}
+.container{
+    display: flex;
+    gap: 2;
+    border: 2px solid white;
+}
+.icon{
+    margin: 1em 2em;
+    text-align: center;
+    color: var(--font-color-yellow);
+    border:  3px solid var(--font-color-yellow);
+    padding: 2em;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
